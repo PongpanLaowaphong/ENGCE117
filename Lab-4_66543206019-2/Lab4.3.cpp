@@ -55,10 +55,10 @@ void GoNext1( struct studentNode *walk ) {
               
         walk = walk -> next ;
         printf( "%s	",walk -> name ) ;
-		printf( "%d	", walk -> age ) ;
-   	 	printf( "%c	", walk -> sex ) ;
-   	 	printf( "%.2f	", walk -> gpa ) ;
-   	 	printf( "\n" ) ;
+	printf( "%d	", walk -> age ) ;
+   	printf( "%c	", walk -> sex ) ;
+   	printf( "%.2f	", walk -> gpa ) ;
+   	printf( "\n" ) ;
 			     
    }//end while loop [Next node]
     
